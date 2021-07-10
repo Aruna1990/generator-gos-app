@@ -1,0 +1,17 @@
+{
+  "name": "generator-gos-app",
+  "version": "0.1.0",
+  "description": "creating gOS App with React and TypeScript",
+  "keywords": [
+    "yeoman-generator",
+    "gOS",
+    "gos-app-generator"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/Aruna1990/generator-gos-app.git",
+  "author": "Aruna",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^5.4.0"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "<%= name %>",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@ant-design/charts": "^1.1.4",
+    "@ant-design/icons": "^4.6.2",
+    "@craco/craco": "^6.1.1",
+    "@svgdotjs/svg.js": "^3.0.16",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.0",
+    "@umijs/hooks": "^1.9.3",
+    "animejs": "^3.2.1",
+    "antd": "^4.15.5",
+    "classnames": "^2.3.1",
+    "craco-antd": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "framer-motion": "^4.1.17",
+    "geometric": "^2.2.6",
+    "gos-js-sdk": "^0.5.37",
+    "gsence-web-camera": "^0.5.8",
+    "immer": "^9.0.2",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-infinite-scroller": "^1.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "use-immer": "^0.5.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "proxy": "node local.proxy.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-cssresources": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/node-logger": "^6.2.9",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.2.9",
+    "@types/animejs": "^3.1.3",
+    "@types/classnames": "^2.3.1",
+    "@types/geometric": "^2.2.0",
+    "@types/lodash": "^4.14.169",
+    "@types/react-infinite-scroller": "^1.2.1",
+    "@types/react-router-dom": "^5.1.7",
+    "autoprefixer": "^9.8.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "nanoid": "^3.1.23",
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
+    "webpack-bundle-analyzer": "^4.4.1",
+    "webpackbar": "^5.0.0-3"
+  }
+}
